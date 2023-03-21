@@ -5,12 +5,28 @@
     <link>https://svenbugiel.github.io/publication-type/1/</link>
       <atom:link href="https://svenbugiel.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Sven Bugiel</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Sven Bugiel</copyright><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://svenbugiel.github.io/media/icon_hu18e6caebb48b5de1c337923ca8a7d9a5_48771_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://svenbugiel.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>A Systematic Study of the Consistency of Two-Factor Authentication User Journeys on Top-Ranked Websites</title>
+      <link>https://svenbugiel.github.io/publication/ndss-23/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/ndss-23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TALUS: Reinforcing TEE Confidentiality with Cryptographic Coprocessors</title>
+      <link>https://svenbugiel.github.io/publication/fc-23/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/fc-23/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A11y and Privacy don&#39;t have to be mutually exclusive: Constraining Accessibility Service Misuse on Android</title>
