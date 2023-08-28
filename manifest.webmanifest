@@ -2,8 +2,8 @@
   "name": "Sven Bugiel",
   "short_name": "Sven Bugiel",
   "lang": "en-us",
-  "theme_color": "#1565c0",
-  "background_color": "#1565c0",
+  "theme_color": "#bbdefb",
+  "background_color": "#bbdefb",
   "icons": [{
     "src": "/media/icon_hu18e6caebb48b5de1c337923ca8a7d9a5_48771_192x192_fill_lanczos_center_3.png",
     "sizes": "192x192",
