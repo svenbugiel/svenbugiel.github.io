@@ -5,12 +5,20 @@
     <link>https://svenbugiel.github.io/publication/</link>
       <atom:link href="https://svenbugiel.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Sven Bugiel</copyright><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Sven Bugiel</copyright><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://svenbugiel.github.io/media/icon_hu18e6caebb48b5de1c337923ca8a7d9a5_48771_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://svenbugiel.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Measuring the Effects of Stack Overflow Code Snippet Evolution on Open-Source Software Security</title>
+      <link>https://svenbugiel.github.io/publication/jallow-sp-24/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/jallow-sp-24/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Systematic Study of the Consistency of Two-Factor Authentication User Journeys on Top-Ranked Websites</title>
