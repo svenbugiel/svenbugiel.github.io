@@ -1,17 +1,13 @@
-<!DOCTYPE html>
-<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: November 28, 2023 --><html lang="en-us" >
-
-
+<!doctype html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: October 4, 2024 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="light">
+  
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  
-  
-  
-    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
-  
+  <meta name="generator" content="Hugo Blox Builder 0.2.0" />
 
   
   
@@ -29,217 +25,147 @@
 
   
   
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-  
-
   
   
   
-
+    
+    
+    
   
   
 
-  
-  
-
-  
-
-  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+  <meta name="author" content="Sven Bugiel" />
 
   
   
   
     
-    
-
-    
-    
-    
-    
-      
-      
-      
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-
-    
-    
-    
-
-    
-
-    
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-        
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
   
+  <meta name="description" content="Personal homepage of Sven Bugiel" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://svenbugiel.github.io/" />
 
   
   
   
   
+    
+    <link rel="stylesheet" href="/css/themes/blue.min.css" />
+  
+
   
   
-  <link rel="stylesheet" href="/css/wowchemy.eca19f1392e4de1c5a5fcd64903700e2.css" />
+    
+    <link href="/dist/wc.min.css" rel="stylesheet" />
+  
 
   
   
   
 
+  
+
+  <script>
+     
+    window.hbb = {
+       defaultTheme: document.documentElement.dataset.wcThemeDefault,
+       setDarkTheme: () => {
+        document.documentElement.classList.add("dark");
+        document.documentElement.style.colorScheme = "dark";
+      },
+       setLightTheme: () => {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.style.colorScheme = "light";
+      }
+    }
+
+    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
+
+    if ("wc-color-theme" in localStorage) {
+      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+    } else {
+      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      if (window.hbb.defaultTheme === "system") {
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      }
+    }
+  </script>
+
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
+      checkboxes.forEach(e => {
+        e.parentElement.parentElement.classList.add('task-list');
+      });
+
+      
+      const liNodes = document.querySelectorAll('.task-list li');
+      liNodes.forEach(nodes => {
+        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
+        if (textNodes.length > 0) {
+          const span = document.createElement('label');
+          textNodes[0].after(span);  
+          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
+          span.appendChild(textNodes[0]);
+        }
+      });
+    });
+  </script>
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Sven Bugiel" />
+  
+
+  
+  <link rel="icon" type="image/png" href="/media/icon_hu8366804350288168087.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu5427257381886904099.png" />
+
+  <link rel="canonical" href="https://svenbugiel.github.io/" />
+
+  
   
   
   
@@ -249,102 +175,31 @@
   
     
     
-    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
-    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
-  
-
   
   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
   
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@svebug" />
+    <meta property="twitter:creator" content="@svebug" />
+  
+  <meta property="og:site_name" content="Sven Bugiel" />
+  <meta property="og:url" content="https://svenbugiel.github.io/" />
+  <meta property="og:title" content="Sven Bugiel" />
+  <meta property="og:description" content="Personal homepage of Sven Bugiel" /><meta property="og:image" content="https://svenbugiel.github.io/media/icon_hu11554477503826664091.png" />
+    <meta property="twitter:image" content="https://svenbugiel.github.io/media/icon_hu11554477503826664091.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta property="og:updated_time" content="2022-10-24T00:00:00&#43;00:00" />
+    
   
 
-
-
-
-
-
-
-
-
-
   
-
-<meta name="description" content="Tenured Faculty" />
-
-
-
-<link rel="alternate" hreflang="en-us" href="https://svenbugiel.github.io/" />
-<link rel="canonical" href="https://svenbugiel.github.io/" />
-
-
-
-  <link rel="manifest" href="/manifest.webmanifest" />
-
-
-
-<link rel="icon" type="image/png" href="/media/icon_hu18e6caebb48b5de1c337923ca8a7d9a5_48771_32x32_fill_lanczos_center_3.png" />
-<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu18e6caebb48b5de1c337923ca8a7d9a5_48771_180x180_fill_lanczos_center_3.png" />
-
-<meta name="theme-color" content="#1565c0" />
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-<meta property="twitter:card" content="summary" />
-<meta property="twitter:image" content="https://svenbugiel.github.io/media/icon_hu18e6caebb48b5de1c337923ca8a7d9a5_48771_512x512_fill_lanczos_center_3.png" />
-<meta property="og:site_name" content="Sven Bugiel" />
-<meta property="og:url" content="https://svenbugiel.github.io/" />
-<meta property="og:title" content="Sven Bugiel" />
-<meta property="og:description" content="Tenured Faculty" /><meta property="og:image" content="https://svenbugiel.github.io/media/icon_hu18e6caebb48b5de1c337923ca8a7d9a5_48771_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
-
-  
-    <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00" />
-  
-
-
-
-
 
 <script type="application/ld+json">
 {
@@ -357,29 +212,209 @@
   
 
 
-
-
-  
-  
-  
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  
-
-  
-  
-    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Sven Bugiel" />
-  
-
-  
-
-
-  
   <title>Sven Bugiel</title>
 
   
   
   
   
+  
+    
+    
+  
+  
+  <style>
+    @font-face {
+      font-family: 'Inter var';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(/dist/font/Inter.var.woff2) format(woff2);
+    }
+  </style>
+
+  
+
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 
 
@@ -387,254 +422,211 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  <script
+    defer
+    src="/js/hugo-blox-en.min.e5fa931947cac2d947732ea37a770aae2b5bd4a50b6048060cd129b46159a06d.js"
+    integrity="sha256-5fqTGUfKwtlHcy6jencKritb1KULYEgGDNEptGFZoG0="
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+      
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+      
+    
+  
 
 
 
 
 </head>
 
-
-<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   "  >
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <script src="/js/wowchemy-init.min.f319ef74ae535b8f6f31666914c50239.js"></script>
-
-  
-
-
-
-
-  <div class="page-header header--fixed">
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-<header>
-  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-    <div class="container-xl">
-
-      
-      <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/">Sven Bugiel</a>
-      </div>
-      
-
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-      <span><i class="fas fa-bars"></i></span>
-      </button>
-      
-
-      
-      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/">Sven Bugiel</a>
-      </div>
-      
-
+  <body class="dark:bg-hb-dark dark:text-white page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header sticky top-0 z-30">
       
       
-      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
-
-        
-        <ul class="navbar-nav d-md-inline-flex">
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/publication"><span>Publications</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#contact" data-target="#contact"><span>Contact</span></a>
-          </li>
-
-          
-          
-
-        
-
-          
-        </ul>
-      </div>
-
-      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-
-        
-        
-          
-        
-
+      
         
         
         
+          <header id="site-header" class="header">
+  <nav class="navbar px-3 flex justify-left">
+    <div class="order-0 h-100">
+      
+      <a class="navbar-brand" href="/" title="Sven Bugiel">
+        Sven Bugiel
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Open Menu</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Close Menu</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
+    
 
-        
-        
-        
+    
+    
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
+      ">
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link active"
+          
+          href="/"
+        >Home</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/publication"
+        >Publications</a
+        >
+      </li>
+      
+      
+      
+    </ul>
 
-        
-        
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
 
-      </ul>
+      
+      
+      
 
+      
+      
+
+      
+      
+
+      
+      
     </div>
   </nav>
 </header>
 
 
-  </div>
 
-  <div class="page-body">
+        
+      
+    </div>
+    <div class="page-body ">
+      
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
     
     
     
-
-    
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-<span class="js-widget-page d-none"></span>
-
-
-
-
-
-  
-  
-  
-  
-
-
-
-
   
 
 
@@ -665,44 +657,11 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="about" class="home-section wg-about  "  >
- <div class="home-section-bg " >
+<section id="section-resume-biography-3" class="relative hbb-section blox-resume-biography-3  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " style="background-color: white;">
    
  </div>
-  <div class="container">
+  
 
   
 
@@ -716,301 +675,263 @@
 
 
 
+
+
+
+
+
+
+
+
+<div class="resume-biography px-3 flex flex-col md:flex-row justify-center gap-12">
+  <div class="flex-none m-w-[130px] mx-auto md:mx-0">
+
+  
   
 
+  <div id="profile" class="flex justify-center items-center flex-col">
+    
 
+    <div class="avatar-wrapper mt-10">
+      
+      <img class="avatar rounded-full bg-white dark:bg-gray-800 p-1" src="/author/sven-bugiel/avatar_hu11766430313534362129.jpg" alt="Sven Bugiel"
+           width="150" height="150">
+      
+    </div>
+    
 
+    <div class="portrait-title dark:text-white">
 
+      <div class="text-3xl font-bold mb-2 mt-6">Sven Bugiel</div>
 
-
-
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4">
-    <div id="profile">
+      <h3 class="font-semibold mb-1">Tenured Faculty</h3>
 
       
-      
-      <img class="avatar avatar-circle"
-           width="270" height="270"
-           src="/authors/admin/avatar_hu274fc8b54fded7404c5ead8710d64d9e_347131_270x270_fill_q75_lanczos_center.jpg" alt="">
-      
-
-      <div class="portrait-title">
-
-        <h2></h2>
-
-        <h3>Tenured Faculty</h3>
-
-        
-        <h3>
-          <a href="https://cispa.de" target="_blank" rel="noopener">
-          <span>CISPA Helmholtz Center for Information Security</span>
-          </a>
-        </h3>
-        
+      <div class="mb-2">
+        <a href="https://cispa.de" target="_blank" rel="noopener">
+        <div>CISPA Helmholtz Center for Information Security</div>
+        </a>
       </div>
+      
+    </div>
 
-      <ul class="network-icon" aria-hidden="true">
+    <ul class="network-icon dark:text-zinc-100">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      <li>
+        <a href="mailto:bugiel@cispa.de"  aria-label="at-symbol"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M16.5 12a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://twitter.com/svebug" target="_blank" rel="noopener" aria-label="brands/x"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://www.linkedin.com/in/sven-bugiel/" target="_blank" rel="noopener" aria-label="brands/linkedin"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://scholar.google.com/citations?user=sPrlusAAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="academicons/google-scholar"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M343.759 106.662V79.43L363.524 64h-213.89L20.476 176.274h85.656a82.339 82.339 0 0 0-.219 6.225c0 20.845 7.22 38.087 21.672 51.861c14.453 13.797 32.252 20.648 53.327 20.648c4.923 0 9.75-.368 14.438-1.024c-2.907 6.5-4.374 12.523-4.374 18.142c0 9.875 4.499 20.43 13.467 31.642c-39.234 2.67-68.061 9.732-86.437 21.163c-10.531 6.5-19 14.704-25.39 24.531c-6.391 9.9-9.578 20.515-9.578 31.962c0 9.648 2.062 18.336 6.219 26.062c4.156 7.726 9.578 14.07 16.312 18.984c6.718 4.968 14.469 9.101 23.219 12.469c8.734 3.344 17.406 5.718 26.061 7.062A167.052 167.052 0 0 0 180.555 448c13.469 0 26.953-1.734 40.547-5.187c13.562-3.485 26.28-8.642 38.171-15.493c11.86-6.805 21.515-16.086 28.922-27.718c7.39-11.68 11.094-24.805 11.094-39.336c0-11.016-2.25-21.039-6.75-30.14c-4.468-9.073-9.938-16.542-16.452-22.345c-6.501-5.813-13-11.155-19.516-15.968c-6.5-4.845-12-9.75-16.468-14.813c-4.485-5.046-6.735-10.054-6.735-14.984c0-4.921 1.734-9.672 5.216-14.265c3.455-4.61 7.674-9.048 12.61-13.306c4.937-4.25 9.875-8.968 14.796-14.133c4.922-5.147 9.141-11.827 12.61-20.008c3.485-8.18 5.203-17.445 5.203-27.757c0-13.453-2.547-24.46-7.547-33.314c-.594-1.022-1.218-1.803-1.875-3.022l56.907-46.672v17.119c-7.393.93-6.624 5.345-6.624 10.635V245.96c0 5.958 4.875 10.834 10.834 10.834h3.989c5.958 0 10.833-4.875 10.833-10.834V117.293c0-5.277.778-9.688-6.561-10.63zm-107.36 222.48c1.14.75 3.704 2.78 7.718 6.038c4.05 3.243 6.797 5.695 8.266 7.414a443.553 443.553 0 0 1 6.376 7.547c2.813 3.375 4.718 6.304 5.718 8.734c1 2.477 2.016 5.461 3.047 8.946a38.27 38.27 0 0 1 1.485 10.562c0 17.048-6.564 29.68-19.656 37.859c-13.125 8.18-28.767 12.274-46.938 12.274c-9.187 0-18.203-1.093-27.063-3.196c-8.843-2.116-17.311-5.336-25.39-9.601c-8.078-4.258-14.577-10.204-19.5-17.797c-4.938-7.64-7.407-16.415-7.407-26.25c0-10.32 2.797-19.29 8.422-26.906c5.594-7.625 12.938-13.391 22.032-17.315c9.063-3.946 18.25-6.742 27.562-8.398a157.865 157.865 0 0 1 28.438-2.555c4.47 0 7.936.25 10.405.696c.455.219 3.032 2.07 7.735 5.563c4.704 3.462 7.625 5.595 8.75 6.384zm-3.359-100.579c-7.406 8.86-17.734 13.288-30.953 13.288c-11.86 0-22.298-4.764-31.266-14.312c-9-9.523-15.422-20.328-19.344-32.43c-3.937-12.109-5.906-23.984-5.906-35.648c0-13.694 3.596-25.352 10.781-34.976c7.187-9.65 17.5-14.485 30.938-14.485c11.875 0 22.374 5.038 31.437 15.157c9.094 10.085 15.61 21.413 19.517 33.968c3.922 12.54 5.873 24.53 5.873 35.984c0 13.446-3.702 24.61-11.076 33.454z"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://dblp.org/pid/31/7561.html" target="_blank" rel="noopener" aria-label="academicons/dblp"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" fill-rule="evenodd" d="M32.247 40.013c-2.243-.152-3.888 1.011-2.65 5.636L65.389 179.21l-.006.003L31.73 194.85s-10.075 4.682-7.241 15.251l44.177 164.875s2.83 10.565 12.905 5.883c70.217-32.635 111.108-51.638 111.108-51.638l23.56-10.953s9.312-4.357 7.47-14.123c-.07-.374-.124-.738-.229-1.128l-20.369-76.023l-11.79-43.992c-1.318-4.69 0 0-12.155-45.64c0 0-2.832-10.57-15.067-18.073L39.002 42.58s-3.871-2.372-6.755-2.568zm275.111 90.152c-1.408-.024-3.04.318-4.93 1.196l-100.86 46.582l15.486 57.762l-.028-.019l19.591 73.44c.104.388.155.754.227 1.127c.921 8.41-7.468 14.123-7.468 14.123l-33.745 15.777l9.066 33.925l.14.558s2.832 10.57 15.067 18.073l125.097 76.708s12.233 7.503 9.4-3.067l-35.733-133.36l33.605-15.62c-.002 0 10.072-4.682 7.238-15.25l-44.177-164.872s-1.872-6.977-7.976-7.083z"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://orcid.org/0000-0002-7151-9614" target="_blank" rel="noopener" aria-label="academicons/orcid"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M336.62 194.538c-7.13-3.328-13.866-5.56-20.253-6.614c-6.365-1.095-16.574-1.612-30.71-1.612h-36.704v152.747h37.634c14.673 0 26.081-1.013 34.224-3.017c8.142-2.004 14.921-4.526 20.356-7.626a69.448 69.448 0 0 0 14.942-11.388c14.488-14.714 21.742-33.273 21.742-55.717c0-22.052-7.44-40.052-22.341-53.982c-5.498-5.166-11.822-9.444-18.89-12.793zM256 8C119.022 8 8 119.042 8 256s111.022 248 248 248s248-111.042 248-248S392.978 8 256 8Zm-82.336 357.513h-29.389V160.148h29.389zM158.95 138.696c-11.14 0-20.213-9.01-20.213-20.212c0-11.118 9.052-20.191 20.213-20.191c11.18 0 20.232 9.052 20.232 20.191a20.194 20.194 0 0 1-20.232 20.212zm241.386 163.597c-5.29 12.545-12.834 23.581-22.65 33.088c-9.982 9.837-21.597 17.194-34.844 22.196c-7.75 3.017-14.839 5.063-21.307 6.117c-6.49 1.013-18.828 1.509-37.076 1.509h-64.956V160.148h69.233c27.962 0 50.034 4.154 66.32 12.545c16.265 8.37 29.181 20.728 38.792 36.972c9.61 16.265 14.425 34.018 14.425 53.196c.023 13.765-2.666 26.908-7.936 39.432z"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
         
         
-        
-        
-          
-        
-        
-        
-        
+      
+      <li>
+        <a href="/files/bugiel_cv.pdf" target="_blank" rel="noopener" aria-label="academicons/cv"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M249.18 328.324c-9.788 15.384-19.179 30.434-40.222 45.055c-11.256 7.89-37.164 23.306-73.99 23.306C64.709 396.685 8 345.605 8 255.801c0-78.486 53.345-140.486 128.466-140.486c30.434 0 57.474 10.521 77.387 26.304c18.414 14.65 27.038 29.304 34.563 42.456l-52.58 26.273c-3.762-8.626-8.29-17.649-19.913-27.406c-12.784-10.155-25.54-13.152-36.46-13.152c-42.821 0-65.364 39.825-65.364 84.145c0 58.238 29.7 87.143 65.364 87.143c34.563 0 48.48-24.042 57.474-39.426l52.243 26.673zm184.194-204.75H504l-92.037 265.22h-67.597l-90.904-265.22h70.625l54.843 188.6z"/></svg>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  </div>
+
+  <div class="flex-auto max-w-prose md:mt-12">
+    
+    <div class="pt-2 justify-content-center prose prose-slate dark:prose-invert">
+      <div class="bio-text" >
+        <p>I am a security researcher focusing on (mobile) operating system security and trusted computing. In the past, I was particularly looking into mandatory access control systems for the Android OS and integrating hardware security building blocks into mobile operating systems. This interest has extended to object-capability systems and developing new confidential computing solutions. More recently, I also worked on the intersection of those topics with human-centered studies, authentication, and data science.</p>
+<p>Since December 2021 I am a tenured faculty at the <a href="https://cispa.de" target="_blank" rel="noopener">CISPA Helmholtz Center for Information Security</a> in Saarbrücken, Germany, and heading the <a href="https://trust.cispa.saarland" target="_blank" rel="noopener">Trusted Systems Group</a>. Between July 2018 and December 2021 I headed the same group at CISPA as tenure-track faculty and between June 2016 and July 2018 as a Research Group Leader.</p>
+<p>I earned my Dr.-Ing. from Saarland University in 2016 with my thesis on <a href="http://scidok.sulb.uni-saarland.de/volltexte/2016/6354/" target="_blank" rel="noopener">&lsquo;Establishing Mandatory Access Control on Android OS,&rsquo;</a> which I wrote under supervision of Prof. <a href="https://cispa.de/en/people/backes" target="_blank" rel="noopener">Michael Backes</a>. I finished my Master of Science in Engineering, Security and Mobile Computing on the <a href="http://www.kth.se/" target="_blank" rel="noopener">KTH</a>/<a href="http://www.dtu.dk/" target="_blank" rel="noopener">DTU</a> track of the NordSecMob Erasmus Mundus programme with my thesis <a href="/uploads/bugiel_msc_thesis.pdf">&ldquo;Using TCG/DRTM for application-specific credential storage and usage&rdquo;</a> in cooperation with Nokia Research Center, Helsinki, Finland.</p>
+<!-- You can download my [CV here](/files/bugiel_cv.pdf). -->
+
+      </div>
+    </div>
+    
+
+    
+    <a href="uploads/bugiel_cv.pdf" target="_blank" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"><svg class="w-3.5 h-3.5 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+      <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"/>
+      <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+    </svg> Download CV</a>
+    
+
+
+
+
+  <div class="grid grid-cols-2 gap-4 justify-between mt-6 dark:text-gray-300">
+
+    
+    <div class="">
+      <div class="section-subheading mb-3">Interests</div>
+      <ul class="list-disc list-inside space-y-1 pl-5">
         
         <li>
-          <a href="mailto:bugiel@cispa.de"  aria-label="envelope">
-            <i class="fas fa-envelope big-icon"></i>
-          </a>
+          Mobile Platform Security
         </li>
         
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
         <li>
-          <a href="https://twitter.com/svebug" target="_blank" rel="noopener" aria-label="twitter">
-            <i class="fab fa-twitter big-icon"></i>
-          </a>
+          Trusted Computing
         </li>
         
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
         <li>
-          <a href="https://scholar.google.co.uk/citations?user=sPrlusAAAAAJ" target="_blank" rel="noopener" aria-label="graduation-cap">
-            <i class="fas fa-graduation-cap big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://dblp.org/pid/31/7561.html" target="_blank" rel="noopener" aria-label="dblp">
-            <i class="ai ai-dblp big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://orcid.org/0000-0002-7151-9614" target="_blank" rel="noopener" aria-label="orcid">
-            <i class="ai ai-orcid big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="/files/bugiel_cv.pdf"  aria-label="cv">
-            <i class="ai ai-cv big-icon"></i>
-          </a>
+          Usable Security
         </li>
         
       </ul>
-
     </div>
-  </div>
-  <div class="col-12 col-lg-8">
+    
 
     
-    <h1>About Sven</h1>
-
-    <div class="article-style">
-      <p>I am a security researcher focusing on (mobile) operating system security and trusted computing. In the past, I was particularly looking into mandatory access control systems for the Android OS and integrating hardware security building blocks into mobile operating systems. This interest has extended to object-capability systems and developing new confidential computing solutions. More recently, I also worked on the intersection of those topics with human-centered studies, authentication, and data science.</p>
-<p>Since December 2021 I am a tenured faculty at the <a href="https://cispa.de" target="_blank" rel="noopener">CISPA Helmholtz Center for Information Security</a> in Saarbrücken, Germany, and heading the <a href="https://trust.cispa.saarland" target="_blank" rel="noopener">Trusted Systems Group</a>. Between July 2018 and December 2021 I headed the same group at CISPA as tenure-track faculty and between June 2016 and July 2018 as a Research Group Leader.</p>
-<p>I earned my Dr.-Ing. from Saarland University in 2016 with my thesis on <a href="http://scidok.sulb.uni-saarland.de/volltexte/2016/6354/" target="_blank" rel="noopener">&lsquo;Establishing Mandatory Access Control on Android OS,&rsquo;</a> which I wrote under supervision of Prof. <a href="https://cispa.de/en/people/backes" target="_blank" rel="noopener">Michael Backes</a>. I finished my Master of Science in Engineering, Security and Mobile Computing on the <a href="http://www.kth.se/" target="_blank" rel="noopener">KTH</a>/<a href="http://www.dtu.dk/" target="_blank" rel="noopener">DTU</a> track of the NordSecMob Erasmus Mundus programme with my thesis 
-  <i class="fas fa-download  pr-1 fa-fw"></i><a href="/files/bugiel_msc_thesis.pdf">&ldquo;Using TCG/DRTM for application-specific credential storage and usage&rdquo;</a> in cooperation with Nokia Research Center, Helsinki, Finland.</p>
-<p>You can download my 
-  <i class="fas fa-download  pr-1 fa-fw"></i>
-
-<a href="/files/bugiel_cv.pdf" target="_blank">CV here</a>
-.</p>
-
+    <div class="">
+      <div class="section-subheading mb-3">Education</div>
+      <ul class="">
+        
+        <li class="flex items-start gap-3">
+          <svg style="" class='flex-shrink-0 w-5 h-5 me-2 mt-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60.436 60.436 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41a60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84a51.39 51.39 0 0 0-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg>
+          <div class="description">
+            <p class="course">Ph.D. in Security in Information Technology</p>
+            <p class="text-sm">Saarland University, Germany</p>
+          </div>
+        </li>
+        
+        <li class="flex items-start gap-3">
+          <svg style="" class='flex-shrink-0 w-5 h-5 me-2 mt-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60.436 60.436 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41a60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84a51.39 51.39 0 0 0-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg>
+          <div class="description">
+            <p class="course">Master of Science in Engineering, Security and Mobile Computing</p>
+            <p class="text-sm">Royal Institute of Technology (KTH), Stockholm, Sweden / Technical University of Denmark (DTU), Copenhagen, Denmark</p>
+          </div>
+        </li>
+        
+      </ul>
     </div>
+    
 
-    <div class="row">
-
-      
-      <div class="col-md-5">
-        <div class="section-subheading">Interests</div>
-        <ul class="ul-interests mb-0">
-          
-          <li>Mobile Platform Security</li>
-          
-          <li>Trusted Computing</li>
-          
-          <li>Usable Security</li>
-          
-        </ul>
-      </div>
-      
-
-      
-      <div class="col-md-7">
-        <div class="section-subheading">Education</div>
-        <ul class="ul-edu fa-ul mb-0">
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">Ph.D. in Security in Information Technology, 2016</p>
-              <p class="institution">Saarland University, Germany</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">Master of Science in Engineering, Security and Mobile Computing, 2010</p>
-              <p class="institution">Royal Institute of Technology (KTH), Stockholm, Sweden / Technical University of Denmark (DTU), Copenhagen, Denmark</p>
-            </div>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </div>
   </div>
+
+</div>
 </div>
 
 
   
 
-  </div>
+  
 </section>
 
-
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   
   
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="hiring" class="home-section wg-markdown dark " style="padding: 20px 0 20px 0;" >
- <div class="home-section-bg " style="background-image: linear-gradient(0deg, #4bb4e3, #2b94c3);">
-   
- </div>
-  <div class="container">
-
-  
-    <div class="row  ">
-    
-      
-        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-          <h1 class="mb-0">We are hiring!</h1>
-          
-        </div>
-      
-    
-  
-
     
 
 
@@ -1020,21 +941,13 @@
 
 
 
-
-  <div class="col-12 col-lg-8">
-    <p>Our team is looking for Ph.D. students and postdocs in any of our areas of interest! Further information and instructions to apply can be found <a href="https://trust.cispa.saarland/jobs/" target="_blank" rel="noopener">here</a>.</p>
-
-  </div>
-
-
-
-  
-    </div>
   
 
-  </div>
-</section>
+  
 
+  
+
+  
 
   
 
@@ -1067,6 +980,11 @@
 
 
 
+  
+    
+    
+    
+  
 
 
 
@@ -1096,25 +1014,12 @@
 
 
 
-
-
-
-<section id="service" class="home-section wg-markdown  "  >
+<section id="papers" class="relative hbb-section blox-collection  " style="padding: 6rem 0 6rem 0;" >
  <div class="home-section-bg " >
    
  </div>
-  <div class="container">
-
   
-    <div class="row  ">
-    
-      
-        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-          <h1 class="mb-0">Academic Service</h1>
-          
-        </div>
-      
-    
+
   
 
     
@@ -1127,318 +1032,67 @@
 
 
 
-  <div class="col-12 col-lg-8">
-    <h4 id="program-co-chair">Program (Co-)Chair</h4>
-<ul>
-<li><a href="https://wayworkshop.org/" target="_blank" rel="noopener">Who Are You?! Adventures in Authentication Workshop 2021 (WAY'21)</a> together with <a href="https://www.sarahpearman.com/about" target="_blank" rel="noopener">Sarah Pearman</a></li>
-</ul>
-<h4 id="program-committee-member">Program Committee Member</h4>
-<ul>
-<li>IEEE SP: <a href="https://www.ieee-security.org/TC/SP2024/" target="_blank" rel="noopener">2024</a>, <a href="https://www.ieee-security.org/TC/SP2022/" target="_blank" rel="noopener">2022</a></li>
-<li>USENIX Security: <a href="https://www.usenix.org/conference/usenixsecurity24" target="_blank" rel="noopener">2024</a>, <a href="https://www.usenix.org/conference/usenixsecurity23" target="_blank" rel="noopener">2023</a>, <a href="https://www.usenix.org/conference/usenixsecurity21" target="_blank" rel="noopener">2021</a>, <a href="https://www.usenix.org/conference/usenixsecurity20" target="_blank" rel="noopener">2020</a>, <a href="https://www.usenix.org/conference/usenixsecurity19" target="_blank" rel="noopener">2019</a></li>
-<li>ACM CCS: <a href="https://www.sigsac.org/ccs/CCS2019/" target="_blank" rel="noopener">2019</a>, <a href="https://www.sigsac.org/ccs/CCS2018/" target="_blank" rel="noopener">2018</a></li>
-<li>ACM SAC: <a href="https://www.sigapp.org/sac/sac2019/" target="_blank" rel="noopener">2019</a></li>
-<li>IEEE EuroSP: <a href="http://www.ieee-security.org/TC/EuroSP2016" target="_blank" rel="noopener">2016</a></li>
-</ul>
-<p><em>Workshops</em></p>
-<ul>
-<li>FoPI (co-located with IEEE EuroSP): <a href="https://futureofpi.github.io/2021/" target="_blank" rel="noopener">2021</a></li>
-<li>WAY (co-located with USENIX SOUPS): <a href="https://wayworkshop.org/2020/index.html" target="_blank" rel="noopener">2020</a></li>
-<li>SysTEX (co-located with ACM CCS): <a href="https://systex.ibr.cs.tu-bs.de" target="_blank" rel="noopener">2016</a></li>
-</ul>
-<h4 id="journal-reviewer">Journal Reviewer</h4>
-<ul>
-<li>IEEE TDSC: 2021, 2016, 2014</li>
-<li>IEEE TIFS: 2017</li>
-<li>IEEE TDSCSI: 2014</li>
-</ul>
 
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Recent Publications
   </div>
 
-
-
   
-    </div>
-  
-
-  </div>
-</section>
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="teaching" class="home-section wg-markdown  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-    <div class="row  ">
-    
-      
-        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-          <h1 class="mb-0">Teaching</h1>
-          
-        </div>
-      
-    
-  
-
-    
-
-
-
-
-
-
-
-
-
-  <div class="col-12 col-lg-8">
-    <p>I am currently offering the following courses:</p>
-<ul>
-<li><a href="https://cms.cispa.saarland/mobsec23/" target="_blank" rel="noopener">Mobile Security (winter term 23)</a></li>
-<li><a href="https://cms.cispa.saarland/sec2324/" target="_blank" rel="noopener">Core Lecture Security (winter term 23)</a> together with <a href="https://cispa.de/en/people/c01thho" target="_blank" rel="noopener">Thorsten Holz</a></li>
-</ul>
-<p>Past courses that I offered:</p>
-<ul>
-<li><a href="https://cms.cispa.saarland/sec2223/" target="_blank" rel="noopener">Core Lecture Security (winter term 22)</a> together with <a href="https://cispa.de/en/people/c01thho" target="_blank" rel="noopener">Thorsten Holz</a></li>
-<li><a href="https://cms.cispa.saarland/poser_2223/" target="_blank" rel="noopener">Perspectives of Cybersecurity (winter term 22)</a> together with <a href="https://trouge.net/" target="_blank" rel="noopener">Giancarlo Pellegrino</a></li>
-<li><a href="https://cms.cispa.saarland/mobsec2122/" target="_blank" rel="noopener">Mobile Security (winter term 21)</a></li>
-<li><a href="https://cms.cispa.saarland/poser_2122/" target="_blank" rel="noopener">Perspectives of Cybersecurity (winter term 21)</a> together with <a href="https://trouge.net/" target="_blank" rel="noopener">Giancarlo Pellegrino</a></li>
-<li><a href="https://cms.cispa.saarland/stims21/" target="_blank" rel="noopener">Seminar Selected Topics in Mobile Security (summer term 21)</a></li>
-<li><a href="https://cms.cispa.saarland/tsc/" target="_blank" rel="noopener">Seminar Trusted and Secure Computing (summer term 21)</a> together with <a href="https://misc0110.net/" target="_blank" rel="noopener">Michael Schwarz</a></li>
-<li><a href="https://cms.cispa.saarland/mobsec2021/" target="_blank" rel="noopener">Mobile Security (winter term 20)</a></li>
-<li><a href="https://cms.cispa.saarland/poser_2021/" target="_blank" rel="noopener">Perspectives of Cybersecurity (winter term 20)</a> together with <a href="https://trouge.net/" target="_blank" rel="noopener">Giancarlo Pellegrino</a></li>
-<li><a href="https://cms.cispa.saarland/mobsec1920/" target="_blank" rel="noopener">Mobile Security (winter term 19)</a></li>
-<li><a href="https://cms.cispa.saarland/tsc_19/" target="_blank" rel="noopener">Trusted and Secure Computing (summer term 19)</a></li>
-<li><a href="https://cms.cispa.saarland/hacking19/" target="_blank" rel="noopener">ProSeminar Hacking (summer term 17)</a></li>
-<li><a href="https://cms.cispa.saarland/stims19/" target="_blank" rel="noopener">Seminar Selected Topics in Mobile Security (summer term 19)</a></li>
-<li><a href="https://cms.cispa.saarland/mobsec1819/" target="_blank" rel="noopener">Mobile Security (winter term 18)</a></li>
-<li><a href="https://cms.cispa.saarland/stims18/" target="_blank" rel="noopener">ProSeminar Selected Topics of Mobile Security (summer term 18)</a></li>
-<li><a href="https://cms.cispa.saarland/trust18/" target="_blank" rel="noopener">Trusted Computing Seminar (summer term 18)</a></li>
-<li><a href="https://cms.cispa.saarland/mobsec1718/" target="_blank" rel="noopener">Mobile Security (winter term 17)</a></li>
-<li>ProSeminar Hacking (summer term 17)</li>
-<li>Trusted and Secure Computing (summer term 17)</li>
-<li>Mobile Security (winter term 16)</li>
-<li>Proseminar Practical Aspects of Cybersecurity (winter term 16)</li>
-</ul>
-
-  </div>
-
-
-
-  
-    </div>
-  
-
-  </div>
-</section>
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="publications" class="home-section wg-collection  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-    <div class="row  ">
-    
-      
-        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-          <h1 class="mb-0">Recent Publications</h1>
-          
-        </div>
-      
-    
-  
-
-    
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-<div class="col-12 col-lg-8">
-
-  <!-- 
-
-<div class="alert alert-note">
-  <div>
-    Quickly discover relevant content by <a href="./publication/">filtering publications</a>.
-  </div>
 </div>
- -->
+
+
+<div class="flex flex-col items-center">
+
+  
+  
+<div class="mt-16 sm:mt-20 container max-w-3xl w-full">
+  <div class="flex flex-col space-y-3">
 
 
   
@@ -1455,17 +1109,17 @@
     
 
   <span >
-      Alfusainey Jallow</span>, <span >
-      Michael Schilling</span>, <span >
-      Michael Backes</span>, <span >
-      Sven Bugiel</span>.
+      Yusra Elbitar</span>, <span >
+      Alexander Hart</span>, <span >
+      Sven Bugiel</span>
   </span>
-  <a href="/publication/jallow-sp-24/">Measuring the Effects of Stack Overflow Code Snippet Evolution on Open-Source Software Security</a>.
-  <em>45th IEEE Symposium on Security and Privacy (SP'24)</em>,
-  2024.
+  (2025).
+  <a href="/publication/elbitar-ndss-25/" class="underline">The Power of Words: A Comprehensive Analysis of Rationales and Their Effects on Users’ Permission Decisions</a>.
+  <em>32nd Annual Network &amp; Distributed System Security Symposium (NDSS &lsquo;25)</em>.
+  
 
   
-  <div class="btn-links">
+  <div class="flex space-x-3">
     
 
 
@@ -1479,14 +1133,15 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/jallow-sp-24/jallow-sp-24.pdf" target="_blank" rel="noopener">
+<a class="hb-attachment-link hb-attachment-small" href="/publication/elbitar-ndss-25/elbitar-ndss-25.pdf" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
   PDF
 </a>
 
 
 
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/jallow-sp-24/cite.bib">
+<a class="hb-attachment-link hb-attachment-small" href="/publication/elbitar-ndss-25/cite.bib" target="_blank" data-filename="/publication/elbitar-ndss-25/cite.bib">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
   Cite
 </a>
 
@@ -1507,6 +1162,150 @@
   </div>
   
 
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Eric Ackermann</span>, <span >
+      Noah Mauthe</span>, <span >
+      Sven Bugiel</span>
+  </span>
+  (2024).
+  <a href="/publication/ackermann-eurosp-24/" class="underline">Work-in-Progress: Northcape: Embedded Real-Time Capability-Based Addressing</a>.
+  <em>IEEE European Symposium on Security and Privacy Workshops</em>.
+  
+
+  
+  <div class="flex space-x-3">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="hb-attachment-link hb-attachment-small" href="/publication/ackermann-eurosp-24/ackermann-eurosp-24.pdf" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+  PDF
+</a>
+
+
+
+<a class="hb-attachment-link hb-attachment-small" href="/publication/ackermann-eurosp-24/cite.bib" target="_blank" data-filename="/publication/ackermann-eurosp-24/cite.bib">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Alfusainey Jallow</span>, <span >
+      Michael Schilling</span>, <span >
+      Michael Backes</span>, <span >
+      Sven Bugiel</span>
+  </span>
+  (2024).
+  <a href="/publication/jallow-sp-24/" class="underline">Measuring the Effects of Stack Overflow Code Snippet Evolution on Open-Source Software Security</a>.
+  <em>45th IEEE Symposium on Security and Privacy (SP'24)</em>.
+  
+
+  
+  <div class="flex space-x-3">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="hb-attachment-link hb-attachment-small" href="/publication/jallow-sp-24/jallow-sp-24.pdf" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+  PDF
+</a>
+
+
+
+<a class="hb-attachment-link hb-attachment-small" href="/publication/jallow-sp-24/cite.bib" target="_blank" data-filename="/publication/jallow-sp-24/cite.bib">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+  
   
 </div>
 
@@ -1526,14 +1325,15 @@
   <span >
       Sanam Ghorbani Lyastani</span>, <span >
       Michael Backes</span>, <span >
-      Sven Bugiel</span>.
+      Sven Bugiel</span>
   </span>
-  <a href="/publication/ndss-23/">A Systematic Study of the Consistency of Two-Factor Authentication User Journeys on Top-Ranked Websites</a>.
-  <em>30th Annual Network &amp; Distributed System Security Symposium (NDSS'23)</em>,
-  2023.
+  (2023).
+  <a href="/publication/ndss-23/" class="underline">A Systematic Study of the Consistency of Two-Factor Authentication User Journeys on Top-Ranked Websites</a>.
+  <em>30th Annual Network &amp; Distributed System Security Symposium (NDSS'23)</em>.
+  
 
   
-  <div class="btn-links">
+  <div class="flex space-x-3">
     
 
 
@@ -1547,14 +1347,15 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/ndss-23/ndss-23.pdf" target="_blank" rel="noopener">
+<a class="hb-attachment-link hb-attachment-small" href="/publication/ndss-23/ndss-23.pdf" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
   PDF
 </a>
 
 
 
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/ndss-23/cite.bib">
+<a class="hb-attachment-link hb-attachment-small" href="/publication/ndss-23/cite.bib" target="_blank" data-filename="/publication/ndss-23/cite.bib">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
   Cite
 </a>
 
@@ -1582,13 +1383,15 @@
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2210.09373" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/abs/2210.09373" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     Extended Version</a>
 
 
   </div>
   
 
+  
   
 </div>
 
@@ -1608,14 +1411,15 @@
   <span >
       Dhiman Chakraborty</span>, <span >
       Michael Schwarz</span>, <span >
-      Sven Bugiel</span>.
+      Sven Bugiel</span>
   </span>
-  <a href="/publication/fc-23/">TALUS: Reinforcing TEE Confidentiality with Cryptographic Coprocessors</a>.
-  <em>Financial Cryptography and Data Security (FC'23)</em>,
-  2023.
+  (2023).
+  <a href="/publication/fc-23/" class="underline">TALUS: Reinforcing TEE Confidentiality with Cryptographic Coprocessors</a>.
+  <em>Financial Cryptography and Data Security (FC'23)</em>.
+  
 
   
-  <div class="btn-links">
+  <div class="flex space-x-3">
     
 
 
@@ -1629,14 +1433,15 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/fc-23/fc-23.pdf" target="_blank" rel="noopener">
+<a class="hb-attachment-link hb-attachment-small" href="/publication/fc-23/fc-23.pdf" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
   PDF
 </a>
 
 
 
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/fc-23/cite.bib">
+<a class="hb-attachment-link hb-attachment-small" href="/publication/fc-23/cite.bib" target="_blank" data-filename="/publication/fc-23/cite.bib">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
   Cite
 </a>
 
@@ -1658,197 +1463,73 @@
   
 
   
-</div>
-
-  
-    
-
-
-<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span >
-      Jie Huang</span>, <span >
-      Michael Backes</span>, <span >
-      Sven Bugiel</span>.
-  </span>
-  <a href="/publication/huang-21-usenix/">A11y and Privacy don&#39;t have to be mutually exclusive: Constraining Accessibility Service Misuse on Android</a>.
-  <em>31st USENIX Security Symposium (USENIX Security &lsquo;21)</em>,
-  2021.
-
-  
-  <div class="btn-links">
-    
-
-
-
-
-
-
-
-
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/huang-21-usenix/huang-21-usenix.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/huang-21-usenix/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </div>
-  
-
   
 </div>
 
-  
-    
-
-
-<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span >
-      Abdallah Dawoud</span>, <span >
-      Sven Bugiel</span>.
-  </span>
-  <a href="/publication/dawoud-21-ndss/">Bringing Balance to the Force: Dynamic Analysis of the Android Application Framework</a>.
-  <em>28th Annual Network &amp; Distributed System Security Symposium (NDSS'21)</em>,
-  2021.
-
-  
-  <div class="btn-links">
-    
-
-
-
-
-
-
-
-
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/dawoud-21-ndss/dawoud-21-ndss.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/dawoud-21-ndss/cite.bib">
-  Cite
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/abdawoud/Dynamo" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.youtube.com/watch?v=I2u00YEfIxo&amp;list=PLfUWWM-POgQtt3mvtOoQhSmY_ZfFPtG-7" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-
-
-
-  </div>
-  
-
-  
-</div>
-
-  
-
-  
-  
-  
-
-    
-    
-      
-    
-
-    
-    
-    
-    
-      
-    
-
-    
-
-    <div class="see-all">
-      <a href="/publication/">
-        See all publications
-        <i class="fas fa-angle-right"></i>
-      </a>
-    </div>
-  
-
-</div>
-
-
-  
-    </div>
   
 
   </div>
+</div>
+
+
+</div>
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+  
+  
+    
+  
+
+  
+
+  <div class="container mx-auto max-w-screen-lg px-8 xl:px-5 pb-5 lg:pb-8">
+    <div class="mt-10 flex justify-center">
+      <a
+        class="relative inline-flex items-center gap-1 rounded-md border border-gray-300 bg-white px-3 py-2 pl-4 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20 dark:border-gray-500 dark:bg-gray-800 dark:text-gray-300"
+        href="/publication/">
+          <span>See all publications</span>
+        </a>
+      </div>
+  </div>
+
+
+
+
+  
+
+  
 </section>
 
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
 
   
 
@@ -1881,6 +1562,11 @@
 
 
 
+  
+    
+    
+    
+  
 
 
 
@@ -1910,25 +1596,12 @@
 
 
 
-
-
-
-<section id="contact" class="home-section wg-contact  "  >
+<section id="section-markdown" class="relative hbb-section blox-markdown  " style="padding: 6rem 0 6rem 0;" >
  <div class="home-section-bg " >
    
  </div>
-  <div class="container">
-
   
-    <div class="row  ">
-    
-      
-        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-          <h1 class="mb-0">Contact</h1>
-          
-        </div>
-      
-    
+
   
 
     
@@ -1941,109 +1614,152 @@
 
 
 
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="col-12 col-lg-8">
-    <iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDS3G3uwe3jKWIEpQzU2tALYwryzCEW728&q=place_id:ChIJjeoxXl62lUcRYi_fCGyJ_jM" allowfullscreen></iframe>
-
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Academic Service
+  </div>
 
   
-
-  <ul class="fa-ul">
-
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-  </ul>
-
-  
-
+  <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose"><h4 id="program-co-chair">Program (Co-)Chair</h4>
+<ul>
+<li>
+ together with 
+</li>
+<li>
+ together with 
+</li>
+</ul>
+<h4 id="program-committee-member">Program Committee Member</h4>
+<ul>
+<li>IEEE SP: 
+, 
+, 
+</li>
+<li>USENIX Security: 
+,
+, 
+, 
+, 
+, 
+</li>
+<li>ACM CCS: 
+, 
+</li>
+<li>ACM SAC: 
+</li>
+<li>IEEE EuroSP: 
+</li>
+</ul>
+<p><em>Workshops</em></p>
+<ul>
+<li>PasswordCon: 2025</li>
+<li>FoPI (co-located with IEEE EuroSP): 
+</li>
+<li>WAY (co-located with USENIX SOUPS): 
+</li>
+<li>SysTEX (co-located with ACM CCS): 
+</li>
+</ul>
+<p><em>External Reviewer</em></p>
+<ul>
+<li>ACM CHI: 2024</li>
+</ul>
+<h4 id="journal-reviewer">Journal Reviewer</h4>
+<ul>
+<li>ACM TOPS: 2023</li>
+<li>IEEE TDSC: 2021, 2016, 2014</li>
+<li>IEEE TIFS: 2017</li>
+<li>IEEE TDSCSI: 2014</li>
+</ul>
+</div>
 </div>
 
 
   
-    </div>
-  
 
-  </div>
+  
 </section>
 
+  
+
+
+    </div>
+    <div class="page-footer">
+      <footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200">
+
+  
 
 
 
-  </div>
 
-  <div class="page-footer">
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by text-center">
+    © 2024 Sven Bugiel. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>.
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by text-center">
     
     
-    <div class="container">
-      <footer class="site-footer">
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  <p class="powered-by">
-    
-    
     
       
       
@@ -2051,127 +1767,26 @@
       
       
       
-      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
     
   </p>
+
 </footer>
 
     </div>
+
     
-  </div>
+    
 
-  
 
 
-<script src="/js/vendor-bundle.min.938a3a7554cd9f6602290411f64d2617.js"></script>
 
 
 
 
-  
 
-  
-  
 
-  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script id="page-data" type="application/json">{"use_headroom":false}</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="/en/js/wowchemy.min.92b0952d2b7a232e8d09c726fdb588d3.js"></script>
-
-
-
-
-
-
-
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        
-        <pre><code></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
+  </body>
 </html>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paper-Conference | Sven Bugiel</title>
+    <link>https://svenbugiel.github.io/publication-type/paper-conference/</link>
+      <atom:link href="https://svenbugiel.github.io/publication-type/paper-conference/index.xml" rel="self" type="application/rss+xml" />
+    <description>Paper-Conference</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://svenbugiel.github.io/media/icon_hu11554477503826664091.png</url>
+      <title>Paper-Conference</title>
+      <link>https://svenbugiel.github.io/publication-type/paper-conference/</link>
+    </image>
+    
+    <item>
+      <title>The Power of Words: A Comprehensive Analysis of Rationales and Their Effects on Users’ Permission Decisions</title>
+      <link>https://svenbugiel.github.io/publication/elbitar-ndss-25/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/elbitar-ndss-25/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Work-in-Progress: Northcape: Embedded Real-Time Capability-Based Addressing</title>
+      <link>https://svenbugiel.github.io/publication/ackermann-eurosp-24/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/ackermann-eurosp-24/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring the Effects of Stack Overflow Code Snippet Evolution on Open-Source Software Security</title>
+      <link>https://svenbugiel.github.io/publication/jallow-sp-24/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/jallow-sp-24/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Systematic Study of the Consistency of Two-Factor Authentication User Journeys on Top-Ranked Websites</title>
+      <link>https://svenbugiel.github.io/publication/ndss-23/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/ndss-23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TALUS: Reinforcing TEE Confidentiality with Cryptographic Coprocessors</title>
+      <link>https://svenbugiel.github.io/publication/fc-23/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/fc-23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A11y and Privacy don&#39;t have to be mutually exclusive: Constraining Accessibility Service Misuse on Android</title>
+      <link>https://svenbugiel.github.io/publication/huang-21-usenix/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/huang-21-usenix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bringing Balance to the Force: Dynamic Analysis of the Android Application Framework</title>
+      <link>https://svenbugiel.github.io/publication/dawoud-21-ndss/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/dawoud-21-ndss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Explanation Beats Context: The Effect of Timing &amp; Rationales on Users&#39; Runtime Permission Decisions</title>
+      <link>https://svenbugiel.github.io/publication/elbitar-usenix-21/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/elbitar-usenix-21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Is FIDO2 the Kingslayer of User Authentication? A Comparative Usability Study of FIDO2 Passwordless Authentication</title>
+      <link>https://svenbugiel.github.io/publication/lyastani-20-sp/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/lyastani-20-sp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Up2Dep: Android Tool Support to Fix Insecure Code Dependencies</title>
+      <link>https://svenbugiel.github.io/publication/nguyen-20-acsac/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/nguyen-20-acsac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DroidCap: OS Support for Capability-based Permissions in Android</title>
+      <link>https://svenbugiel.github.io/publication/dawoud-19-ndss/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/dawoud-19-ndss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Secure Multi-execution in Android</title>
+      <link>https://svenbugiel.github.io/publication/chakraborty-19-sac/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/chakraborty-19-sac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Short Text, Large Effect: Measuring the Impact of User Reviews on Android App Security &amp; Privacy</title>
+      <link>https://svenbugiel.github.io/publication/nguyen-19-sp/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/nguyen-19-sp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>simTPM: User-centric TPM for Mobile Devices</title>
+      <link>https://svenbugiel.github.io/publication/chakraborty-19-usenix/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/chakraborty-19-usenix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Up-To-Crash: Evaluating Third-Party Library Updatability on Android</title>
+      <link>https://svenbugiel.github.io/publication/huang-19-eurosp/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/huang-19-eurosp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Better managed than memorized? Studying the Impact of Managers on Password Strength and Reuse</title>
+      <link>https://svenbugiel.github.io/publication/lyastani-18-usenix/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/lyastani-18-usenix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Rise of the Citizen Developer: Assessing the Security Impact of Online App Generators</title>
+      <link>https://svenbugiel.github.io/publication/oltrogge-18-sp/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/oltrogge-18-sp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ARTist: The Android Runtime Instrumentation and Security Toolkit</title>
+      <link>https://svenbugiel.github.io/publication/schranz-eurosp-17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/schranz-eurosp-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keep me Updated: An Empirical Study of Third-Party Library Updatability on Android</title>
+      <link>https://svenbugiel.github.io/publication/derr-17-ccs/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/derr-17-ccs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seamless In-App Ad Blocking on Stock Android</title>
+      <link>https://svenbugiel.github.io/publication/wissfeld-17-most/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/wissfeld-17-most/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The ART of App Compartmentalization: Compiler-based Library Privilege Separation on Stock Android</title>
+      <link>https://svenbugiel.github.io/publication/huang-17-ccs/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/huang-17-ccs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Demystifying the Android Application Framework: Re-Visiting Android Permission Specification Analysis</title>
+      <link>https://svenbugiel.github.io/publication/derr-16-usenix/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/derr-16-usenix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R-Droid: Leveraging Android App Analysis with Static Slice Optimization</title>
+      <link>https://svenbugiel.github.io/publication/derr-asiaccs-16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/derr-asiaccs-16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reliable Third-Party Library Detection in Android and its Security Applications</title>
+      <link>https://svenbugiel.github.io/publication/derr-16-ccs/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/derr-16-ccs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SoK: Lessons Learned From Android Security Research For Appified Software Platforms</title>
+      <link>https://svenbugiel.github.io/publication/bugiel-16-sp/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/bugiel-16-sp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boxify: Full-fledged App Sandboxing for Stock Android</title>
+      <link>https://svenbugiel.github.io/publication/styp-rekowsky-usenix-15/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/styp-rekowsky-usenix-15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android Security Framework: Extensible Multi-Layered Access Control on Android</title>
+      <link>https://svenbugiel.github.io/publication/bugiel-14-acsac-1/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/bugiel-14-acsac-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scippa: System-Centric IPC Provenance on Android</title>
+      <link>https://svenbugiel.github.io/publication/bugiel-14-acsac-2/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/bugiel-14-acsac-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Advances in Mobile Security</title>
+      <link>https://svenbugiel.github.io/publication/bdgh-advmobisec-13/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/bdgh-advmobisec-13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Client-controlled Cryptography-as-a-Service in the Cloud</title>
+      <link>https://svenbugiel.github.io/publication/acns-13/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/acns-13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flexible and Fine-Grained Mandatory Access Control on Android for Diverse Security and Privacy Policies</title>
+      <link>https://svenbugiel.github.io/publication/bugiel-usenix-13/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/bugiel-usenix-13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Softer Smartcards: Usable Cryptographic Tokens with Secure Execution</title>
+      <link>https://svenbugiel.github.io/publication/schulz-12-fc/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/schulz-12-fc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Taming Privilege-Escalation Attacks on Android</title>
+      <link>https://svenbugiel.github.io/publication/bugiel-12-ndss/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/bugiel-12-ndss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AmazonIA: When Elasticity Snaps Back</title>
+      <link>https://svenbugiel.github.io/publication/bugiel-11-ccs/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/bugiel-11-ccs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Practical and Lightweight Domain Isolation on Android</title>
+      <link>https://svenbugiel.github.io/publication/bugiel-11-spsm/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/bugiel-11-spsm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scalable Trust Establishment with Software Reputation</title>
+      <link>https://svenbugiel.github.io/publication/schulz-11-stc/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/schulz-11-stc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Twin Clouds: An Architecture for Secure Cloud Computing (Extended Abstract)</title>
+      <link>https://svenbugiel.github.io/publication/tud-cs-2011-0071/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/tud-cs-2011-0071/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Twin Clouds: Secure Cloud Computing with Low Latency</title>
+      <link>https://svenbugiel.github.io/publication/bugiel-11-cms/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/bugiel-11-cms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementing an Application-Specific Credential Platform Using Late-Launched Mobile Trusted Module</title>
+      <link>https://svenbugiel.github.io/publication/bugiel-10-stc/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/bugiel-10-stc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TruWalletM: Secure Web Authentication on Mobile Platforms</title>
+      <link>https://svenbugiel.github.io/publication/bdksw-2010/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/bdksw-2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trust in a Small Package: Minimized MRTM Software Implementation for Mobile Secure Environments</title>
+      <link>https://svenbugiel.github.io/publication/bugiel-09-stc/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/bugiel-09-stc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
