@@ -5,12 +5,28 @@
     <link>https://svenbugiel.github.io/publication/</link>
       <atom:link href="https://svenbugiel.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 13 Aug 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://svenbugiel.github.io/media/icon_hu11554477503826664091.png</url>
+      <url>https://svenbugiel.github.io/media/icon_hu_89fc48265a90d539.png</url>
       <title>Publications</title>
       <link>https://svenbugiel.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Stack Overflow Meets Replication: Security Research Amid Evolving Code Snippets</title>
+      <link>https://svenbugiel.github.io/publication/jallow-usenix-25/</link>
+      <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/jallow-usenix-25/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Permission Rationales in the Web Ecosystem: An Exploration of Rationale Text and Design Patterns</title>
+      <link>https://svenbugiel.github.io/publication/elbitar-chi-25/</link>
+      <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://svenbugiel.github.io/publication/elbitar-chi-25/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The Power of Words: A Comprehensive Analysis of Rationales and Their Effects on Users’ Permission Decisions</title>
